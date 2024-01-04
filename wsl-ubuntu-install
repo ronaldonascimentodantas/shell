@@ -4,5 +4,5 @@
 # e.g.: curl -s https://raw.githubusercontent.com/ronaldonascimentodantas/shell/main/wsl-ubuntu-install | sudo bash
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install nmap top traceroute python3 whois -y
+sudo apt-get install nmap traceroute python3 whois -y
 #EOF: wsl-ubuntu-install.sh
