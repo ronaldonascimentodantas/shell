@@ -1,0 +1,8 @@
+#!/bin/bash
+# file: wsl-ubuntu-install.sh
+# This script is used to install some packages on WSL Linux after install.
+# e.g.: curl -s https://raw.githubusercontent.com/ronaldonascimentodantas/shell/main/wsl-ubuntu-install | sudo bash
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install nmap top traceroute python3 whois -y
+#EOF: wsl-ubuntu-install.sh
